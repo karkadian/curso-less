@@ -1,0 +1,49 @@
+body,
+h1,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  padding: 20px 40px;
+}
+.row {
+  padding: 5px 0;
+}
+@font-face {
+  font-family: 'yanone-bold';
+  src: url('../fonts/YanoneKaffeesatz-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'yanone-extra-light';
+  src: url('../fonts/YanoneKaffeesatz-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'yanone-light';
+  src: url('../fonts/YanoneKaffeesatz-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'yanone-medium';
+  src: url('../fonts/YanoneKaffeesatz-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'yanone-regular';
+  src: url('../fonts/YanoneKaffeesatz-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'yanone-semibold';
+  src: url('../fonts/YanoneKaffeesatz-SemiBold.ttf') format('truetype');
+}
+.principal {
+  font-size: 2em;
+  font-weight: 800;
+  color: #6a6f73;
+  background-color: #1c1d1f;
+  font-family: 'yanone-bold';
+}
+.principal h1 {
+  font-size: 2em;
+}
+.subtitulo h3 {
+  font-size: 1em;
+}
